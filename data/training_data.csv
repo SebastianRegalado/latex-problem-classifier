@@ -1,0 +1,267 @@
+category name,category,text
+combinatorics,1,"The Bank of Oslo issues two types of coin: aluminum (denoted A) and bronze (denoted B). Marianne has $n$ aluminum coins and $n$ bronze coins arranged in a row in some arbitrary initial order. A chain is any subsequence of consecutive coins of the same type. Given a fixed positive integer $k \leq 2n$, Gilberty repeatedly performs the following operation: he identifies the longest chain containing the $k^{th}$ coin from the left and moves all coins in that chain to the left end of the row. For example, if $n=4$ and $k=4$, the process starting from the ordering $AABBBABA$ would be $AABBBABA \to BBBAAABA \to AAABBBBA \to BBBBAAAA \to ...$
+
+Find all pairs $(n,k)$ with $1 \leq k \leq 2n$ such that for every initial ordering, at some moment during the process, the leftmost $n$ coins will all be of the same type."
+algebra,0,"Let $\mathbb{R}^+$ denote the set of positive real numbers. Find all functions $f: \mathbb{R}^+ \to \mathbb{R}^+$ such that for each $x \in \mathbb{R}^+$, there is exactly one $y \in \mathbb{R}^+$ satisfying$$xf(y)+yf(x) \leq 2$$"
+number theory,3,Let $k$ be a positive integer and let $S$ be a finite set of odd prime numbers. Prove that there is at most one way (up to rotation and reflection) to place the elements of $S$ around the circle such that the product of any two neighbors is of the form $x^2+x+k$ for some positive integer $x$.
+geometry,2,"Let $ABCDE$ be a convex pentagon such that $BC=DE$. Assume that there is a point $T$ inside $ABCDE$ with $TB=TD,TC=TE$ and $\angle ABT = \angle TEA$. Let line $AB$ intersect lines $CD$ and $CT$ at points $P$ and $Q$, respectively. Assume that the points $P,B,A,Q$ occur on their line in that order. Let line $AE$ intersect $CD$ and $DT$ at points $R$ and $S$, respectively. Assume that the points $R,E,A,S$ occur on their line in that order. Prove that the points $P,S,Q,R$ lie on a circle."
+number theory,3,"Find all triples $(a,b,p)$ of positive integers with $p$ prime and$$a^p=b!+p$$"
+combinatorics,1,"Let $n$ be a positive integer. A Nordic square is an $n \times n$ board containing all the integers from $1$ to $n^2$ so that each cell contains exactly one number. Two different cells are considered adjacent if they share a common side. Every cell that is adjacent only to cells containing larger numbers is called a valley. An uphill path is a sequence of one or more cells such that:
+
+(i) the first cell in the sequence is a valley,
+
+(ii) each subsequent cell in the sequence is adjacent to the previous cell, and
+
+(iii) the numbers written in the cells in the sequence are in increasing order.
+
+Find, as a function of $n$, the smallest possible total number of uphill paths in a Nordic square."
+algebra,0,"Let $n \geqslant 100$ be an integer. Ivan writes the numbers $n, n+1, \ldots, 2 n$ each on different cards. He then shuffles these $n+1$ cards, and divides them into two piles. Prove that at least one of the piles contains two cards such that the sum of their numbers is a perfect square."
+algebra,0,"Show that the inequality\[\sum_{i=1}^n \sum_{j=1}^n \sqrt{|x_i-x_j|}\leqslant \sum_{i=1}^n \sum_{j=1}^n \sqrt{|x_i+x_j|}\]holds for all real numbers $x_1,\ldots x_n.$"
+geometry,2,"Let $D$ be an interior point of the acute triangle $ABC$ with $AB > AC$ so that $\angle DAB = \angle CAD.$ The point $E$ on the segment $AC$ satisfies $\angle ADE =\angle BCD,$ the point $F$ on the segment $AB$ satisfies $\angle FDA =\angle DBC,$ and the point $X$ on the line $AC$ satisfies $CX = BX.$ Let $O_1$ and $O_2$ be the circumcenters of the triangles $ADC$ and $EXD,$ respectively. Prove that the lines $BC, EF,$ and $O_1O_2$ are concurrent."
+geometry,2,"Let $\Gamma$ be a circle with centre $I$, and $A B C D$ a convex quadrilateral such that each of the segments $A B, B C, C D$ and $D A$ is tangent to $\Gamma$. Let $\Omega$ be the circumcircle of the triangle $A I C$. The extension of $B A$ beyond $A$ meets $\Omega$ at $X$, and the extension of $B C$ beyond $C$ meets $\Omega$ at $Z$. The extensions of $A D$ and $C D$ beyond $D$ meet $\Omega$ at $Y$ and $T$, respectively. Prove that\[A D+D T+T X+X A=C D+D Y+Y Z+Z C.\]"
+combinatorics,1,"Two squirrels, Bushy and Jumpy, have collected 2021 walnuts for the winter. Jumpy numbers the walnuts from 1 through 2021, and digs 2021 little holes in a circular pattern in the ground around their favourite tree. The next morning Jumpy notices that Bushy had placed one walnut into each hole, but had paid no attention to the numbering. Unhappy, Jumpy decides to reorder the walnuts by performing a sequence of 2021 moves. In the $k$-th move, Jumpy swaps the positions of the two walnuts adjacent to walnut $k$.
+
+Prove that there exists a value of $k$ such that, on the $k$-th move, Jumpy swaps some walnuts $a$ and $b$ such that $a<k<b$."
+number theory,3,"Let $m\ge 2$ be an integer, $A$ a finite set of integers (not necessarily positive) and $B_1,B_2,...,B_m$ subsets of $A$. Suppose that, for every $k=1,2,...,m$, the sum of the elements of $B_k$ is $m^k$. Prove that $A$ contains at least $\dfrac{m}{2}$ elements."
+geometry,2,"Consider the convex quadrilateral $ABCD$. The point $P$ is in the interior of $ABCD$. The following ratio equalities hold:
+\[\angle PAD:\angle PBA:\angle DPA=1:2:3=\angle CBP:\angle BAP:\angle BPC\]Prove that the following three lines meet in a point: the internal bisectors of angles $\angle ADP$ and $\angle PCB$ and the perpendicular bisector of segment $AB$."
+algebra,0,"The real numbers $a, b, c, d$ are such that $a\geq b\geq c\geq d>0$ and $a+b+c+d=1$. Prove that
+\[(a+2b+3c+4d)a^ab^bc^cd^d<1\]"
+combinatorics,1,"There are $4n$ pebbles of weights $1, 2, 3, \dots, 4n.$ Each pebble is coloured in one of $n$ colours and there are four pebbles of each colour. Show that we can arrange the pebbles into two piles so that the following two conditions are both satisfied:
+The total weights of both piles are the same.
+Each pile contains two pebbles of each colour."
+combinatorics,1,"There is an integer $n > 1$. There are $n^2$ stations on a slope of a mountain, all at different altitudes. Each of two cable car companies, $A$ and $B$, operates $k$ cable cars; each cable car provides a transfer from one of the stations to a higher one (with no intermediate stops). The $k$ cable cars of $A$ have $k$ different starting points and $k$ different finishing points, and a cable car which starts higher also finishes higher. The same conditions hold for $B$. We say that two stations are linked by a company if one can start from the lower station and reach the higher one by using one or more cars of that company (no other movements between stations are allowed). Determine the smallest positive integer $k$ for which one can guarantee that there are two stations that are linked by both companies."
+number theory,3,"A deck of $n > 1$ cards is given. A positive integer is written on each card. The deck has the property that the arithmetic mean of the numbers on each pair of cards is also the geometric mean of the numbers on some collection of one or more cards.
+For which $n$ does it follow that the numbers on the cards are all equal?"
+geometry,2,"Prove that there exists a positive constant $c$ such that the following statement is true:
+Consider an integer $n > 1$, and a set $\mathcal S$ of $n$ points in the plane such that the distance between any two different points in $\mathcal S$ is at least 1. It follows that there is a line $\ell$ separating $\mathcal S$ such that the distance from any point of $\mathcal S$ to $\ell$ is at least $cn^{-1/3}$.
+
+(A line $\ell$ separates a set of points S if some segment joining two points in $\mathcal S$ crosses $\ell$.)
+
+Note. Weaker results with $cn^{-1/3}$ replaced by $cn^{-\alpha}$ may be awarded points depending on the value of the constant $\alpha > 1/3$."
+algebra,0,"Let $\mathbb{Z}$ be the set of integers. Determine all functions $f: \mathbb{Z} \rightarrow \mathbb{Z}$ such that, for all integers $a$ and $b$,$$f(2a)+2f(b)=f(f(a+b)).$$"
+geometry,2,"In triangle $ABC$, point $A_1$ lies on side $BC$ and point $B_1$ lies on side $AC$. Let $P$ and $Q$ be points on segments $AA_1$ and $BB_1$, respectively, such that $PQ$ is parallel to $AB$. Let $P_1$ be a point on line $PB_1$, such that $B_1$ lies strictly between $P$ and $P_1$, and $\angle PP_1C=\angle BAC$. Similarly, let $Q_1$ be the point on line $QA_1$, such that $A_1$ lies strictly between $Q$ and $Q_1$, and $\angle CQ_1Q=\angle CBA$.
+
+Prove that points $P,Q,P_1$, and $Q_1$ are concyclic."
+combinatorics,1,"A social network has $2019$ users, some pairs of whom are friends. Whenever user $A$ is friends with user $B$, user $B$ is also friends with user $A$. Events of the following kind may happen repeatedly, one at a time:
+Three users $A$, $B$, and $C$ such that $A$ is friends with both $B$ and $C$, but $B$ and $C$ are not friends, change their friendship statuses such that $B$ and $C$ are now friends, but $A$ is no longer friends with $B$, and no longer friends with $C$. All other friendship statuses are unchanged.
+Initially, $1010$ users have $1009$ friends each, and $1009$ users have $1010$ friends each. Prove that there exists a sequence of such events after which each user is friends with at most one other user."
+number theory,3,"Find all pairs $(k,n)$ of positive integers such that\[ k!=(2^n-1)(2^n-2)(2^n-4)\cdots(2^n-2^{n-1}). \]"
+combinatorics,1,"The Bank of Bath issues coins with an $H$ on one side and a $T$ on the other. Harry has $n$ of these coins arranged in a line from left to right. He repeatedly performs the following operation: if there are exactly $k>0$ coins showing $H$, then he turns over the $k$th coin from the left; otherwise, all coins show $T$ and he stops. For example, if $n=3$ the process starting with the configuration $THT$ would be $THT \to HHT  \to HTT \to TTT$, which stops after three operations.
+
+(a) Show that, for each initial configuration, Harry stops after a finite number of operations.
+
+(b) For each initial configuration $C$, let $L(C)$ be the number of operations before Harry stops. For example, $L(THT) = 3$ and $L(TTT) = 0$. Determine the average value of $L(C)$ over all $2^n$ possible initial configurations $C$."
+geometry,2,"Let $I$ be the incentre of acute triangle $ABC$ with $AB\neq AC$. The incircle $\omega$ of $ABC$ is tangent to sides $BC, CA$, and $AB$ at $D, E,$ and $F$, respectively. The line through $D$ perpendicular to $EF$ meets $\omega$ at $R$. Line $AR$ meets $\omega$ again at $P$. The circumcircles of triangle $PCE$ and $PBF$ meet again at $Q$."
+geometry,2,Let $\Gamma$ be the circumcircle of acute triangle $ABC$. Points $D$ and $E$ are on segments $AB$ and $AC$ respectively such that $AD = AE$. The perpendicular bisectors of $BD$ and $CE$ intersect minor arcs $AB$ and $AC$ of $\Gamma$ at points $F$ and $G$ respectively. Prove that lines $DE$ and $FG$ are either parallel or they are the same line.
+algebra,0,"Find all integers $n \geq 3$ for which there exist real numbers $a_1, a_2, \dots a_{n + 2}$ satisfying $a_{n + 1} = a_1$, $a_{n + 2} = a_2$ and
+$$a_ia_{i + 1} + 1 = a_{i + 2},$$for $i = 1, 2, \dots, n$."
+combinatorics,1,"An anti-Pascal triangle is an equilateral triangular array of numbers such that, except for the numbers in the bottom row, each number is the absolute value of the difference of the two numbers immediately below it. For example, the following is an anti-Pascal triangle with four rows which contains every integer from $1$ to $10$.
+\[\begin{array}{
+c@{\hspace{4pt}}c@{\hspace{4pt}}
+c@{\hspace{4pt}}c@{\hspace{2pt}}c@{\hspace{2pt}}c@{\hspace{4pt}}c
+} \vspace{4pt}
+ & & & 4 & & &  \\\vspace{4pt}
+ & & 2 & & 6 & &  \\\vspace{4pt}
+ & 5 & & 7 & & 1 & \\\vspace{4pt}
+ 8 & & 3 & & 10 & & 9 \\\vspace{4pt}
+\end{array}\]Does there exist an anti-Pascal triangle with $2018$ rows which contains every integer from $1$ to $1 + 2 + 3 + \dots + 2018$?"
+combinatorics,1,"A site is any point $(x, y)$ in the plane such that $x$ and $y$ are both positive integers less than or equal to 20.
+
+Initially, each of the 400 sites is unoccupied. Amy and Ben take turns placing stones with Amy going first. On her turn, Amy places a new red stone on an unoccupied site such that the distance between any two sites occupied by red stones is not equal to $\sqrt{5}$. On his turn, Ben places a new blue stone on any unoccupied site. (A site occupied by a blue stone is allowed to be at any distance from any other occupied site.) They stop as soon as a player cannot place a stone.
+
+Find the greatest $K$ such that Amy can ensure that she places at least $K$ red stones, no matter how Ben places his blue stones."
+number theory,3,"Let $a_1$, $a_2$, $\ldots$ be an infinite sequence of positive integers. Suppose that there is an integer $N > 1$ such that, for each $n \geq N$, the number
+$$\frac{a_1}{a_2} + \frac{a_2}{a_3} + \cdots + \frac{a_{n-1}}{a_n} + \frac{a_n}{a_1}$$is an integer. Prove that there is a positive integer $M$ such that $a_m = a_{m+1}$ for all $m \geq M$."
+geometry,2,"A convex quadrilateral $ABCD$ satisfies $AB\cdot CD = BC\cdot DA$. Point $X$ lies inside $ABCD$ so that\[\angle{XAB} = \angle{XCD}\quad\,\,\text{and}\quad\,\,\angle{XBC} = \angle{XDA}.\]Prove that $\angle{BXA} + \angle{DXC} = 180^\circ$."
+number theory,3,"For each integer $a_0 > 1$, define the sequence $a_0, a_1, a_2, \ldots$ for $n \geq 0$ as
+$$a_{n+1} = 
+\begin{cases}
+\sqrt{a_n} & \text{if } \sqrt{a_n} \text{ is an integer,} \\
+a_n + 3 & \text{otherwise.}
+\end{cases}
+$$Determine all values of $a_0$ such that there exists a number $A$ such that $a_n = A$ for infinitely many values of $n$."
+algebra,0,"Let $\mathbb{R}$ be the set of real numbers. Determine all functions $f: \mathbb{R} \rightarrow \mathbb{R}$ such that, for any real numbers $x$ and $y$,\[ f(f(x)f(y)) + f(x+y) = f(xy). \]"
+combinatorics,1,"A hunter and an invisible rabbit play a game in the Euclidean plane. The rabbit's starting point, $A_0,$ and the hunter's starting point, $B_0$ are the same. After $n-1$ rounds of the game, the rabbit is at point $A_{n-1}$ and the hunter is at point $B_{n-1}.$ In the $n^{\text{th}}$ round of the game, three things occur in order:
+The rabbit moves invisibly to a point $A_n$ such that the distance between $A_{n-1}$ and $A_n$ is exactly $1.$
+A tracking device reports a point $P_n$ to the hunter. The only guarantee provided by the tracking device to the hunter is that the distance between $P_n$ and $A_n$ is at most $1.$
+The hunter moves visibly to a point $B_n$ such that the distance between $B_{n-1}$ and $B_n$ is exactly $1.$
+Is it always possible, no matter how the rabbit moves, and no matter what points are reported by the tracking device, for the hunter to choose her moves so that after $10^9$ rounds, she can ensure that the distance between her and the rabbit is at most $100?$"
+geometry,2,Let $R$ and $S$ be different points on a circle $\Omega$ such that $RS$ is not a diameter. Let $\ell$ be the tangent line to $\Omega$ at $R$. Point $T$ is such that $S$ is the midpoint of the line segment $RT$. Point $J$ is chosen on the shorter arc $RS$ of $\Omega$ so that the circumcircle $\Gamma$ of triangle $JST$ intersects $\ell$ at two distinct points. Let $A$ be the common point of $\Gamma$ and $\ell$ that is closer to $R$. Line $AJ$ meets $\Omega$ again at $K$. Prove that the line $KT$ is tangent to $\Gamma$.
+combinatorics,1,"An integer $N \ge 2$ is given. A collection of $N(N + 1)$ soccer players, no two of whom are of the same height, stand in a row. Sir Alex wants to remove $N(N - 1)$ players from this row leaving a new row of $2N$ players in which the following $N$ conditions hold:
+($1$) no one stands between the two tallest players,
+($2$) no one stands between the third and fourth tallest players,
+$\;\;\vdots$
+($N$) no one stands between the two shortest players.
+
+Show that this is always possible."
+number theory,3,"An ordered pair $(x, y)$ of integers is a primitive point if the greatest common divisor of $x$ and $y$ is $1$. Given a finite set $S$ of primitive points, prove that there exist a positive integer $n$ and integers $a_0, a_1, \ldots , a_n$ such that, for each $(x, y)$ in $S$, we have:
+$$a_0x^n + a_1x^{n-1} y + a_2x^{n-2}y^2 + \cdots + a_{n-1}xy^{n-1} + a_ny^n = 1.$$"
+geometry,2,"Triangle $BCF$ has a right angle at $B$. Let $A$ be the point on line $CF$ such that $FA=FB$ and $F$ lies between $A$ and $C$. Point $D$ is chosen so that $DA=DC$ and $AC$ is the bisector of $\angle{DAB}$. Point $E$ is chosen so that $EA=ED$ and $AD$ is the bisector of $\angle{EAC}$. Let $M$ be the midpoint of $CF$. Let $X$ be the point such that $AMXE$ is a parallelogram. Prove that $BD,FX$ and $ME$ are concurrent."
+combinatorics,1,"Find all integers $n$ for which each cell of $n \times n$ table can be filled with one of the letters $I,M$ and $O$ in such a way that:
+in each row and each column, one third of the entries are $I$, one third are $M$ and one third are $O$; and 
+in any diagonal, if the number of entries on the diagonal is a multiple of three, then one third of the entries are $I$, one third are $M$ and one third are $O$.
+Note. The rows and columns of an $n \times n$ table are each labelled $1$ to $n$ in a natural order. Thus each cell corresponds to a pair of positive integer $(i,j)$ with $1 \le i,j \le n$. For $n>1$, the table has $4n-2$ diagonals of two types. A diagonal of first type consists all cells $(i,j)$ for which $i+j$ is a constant, and the diagonal of this second type consists all cells $(i,j)$ for which $i-j$ is constant."
+number theory,3,"Let $P=A_1A_2\cdots A_k$ be a convex polygon in the plane. The vertices $A_1, A_2, \ldots, A_k$ have integral coordinates and lie on a circle. Let $S$ be the area of $P$. An odd positive integer $n$ is given such that the squares of the side lengths of $P$ are integers divisible by $n$. Prove that $2S$ is an integer divisible by $n$."
+number theory,3,"A set of positive integers is called fragrant if it contains at least two elements and each of its elements has a prime factor in common with at least one of the other elements. Let $P(n)=n^2+n+1$. What is the least possible positive integer value of $b$ such that there exists a non-negative integer $a$ for which the set$$\{P(a+1),P(a+2),\ldots,P(a+b)\}$$is fragrant?"
+algebra,0,"The equation
+$$(x-1)(x-2)\cdots(x-2016)=(x-1)(x-2)\cdots (x-2016)$$is written on the board, with $2016$ linear factors on each side. What is the least possible value of $k$ for which it is possible to erase exactly $k$ of these $4032$ linear factors so that at least one factor remains on each side and the resulting equation has no real solutions?"
+combinatorics,1,"There are $n\ge 2$ line segments in the plane such that every two segments cross and no three segments meet at a point. Geoff has to choose an endpoint of each segment and place a frog on it facing the other endpoint. Then he will clap his hands $n-1$ times. Every time he claps,each frog will immediately jump forward to the next intersection point on its segment. Frogs never change the direction of their jumps. Geoff wishes to place the frogs in such a way that no two of them will ever occupy the same intersection point at the same time.
+
+(a) Prove that Geoff can always fulfill his wish if $n$ is odd.
+
+(b) Prove that Geoff can never fulfill his wish if $n$ is even."
+combinatorics,1,"We say that a finite set $\mathcal{S}$ of points in the plane is balanced if, for any two different points $A$ and $B$ in $\mathcal{S}$, there is a point $C$ in $\mathcal{S}$ such that $AC=BC$. We say that $\mathcal{S}$ is centre-free if for any three different points $A$, $B$ and $C$ in $\mathcal{S}$, there is no points $P$ in $\mathcal{S}$ such that $PA=PB=PC$.
+
+(a) Show that for all integers $n\ge 3$, there exists a balanced set consisting of $n$ points.
+
+(b) Determine all integers $n\ge 3$ for which there exists a balanced centre-free set consisting of $n$ points."
+number theory,3,"Find all positive integers $(a,b,c)$ such that
+$$ab-c,\quad bc-a,\quad ca-b$$are all powers of $2$."
+geometry,2,"Let $ABC$ be an acute triangle with $AB > AC$. Let $\Gamma $ be its circumcircle, $H$ its orthocenter, and $F$ the foot of the altitude from $A$. Let $M$ be the midpoint of $BC$. Let $Q$ be the point on $\Gamma$ such that $\angle HQA = 90^{\circ}$ and let $K$ be the point on $\Gamma$ such that $\angle HKQ = 90^{\circ}$. Assume that the points $A$, $B$, $C$, $K$ and $Q$ are all different and lie on $\Gamma$ in this order.
+
+Prove that the circumcircles of triangles $KQH$ and $FKM$ are tangent to each other."
+geometry,2,"Triangle $ABC$ has circumcircle $\Omega$ and circumcenter $O$. A circle $\Gamma$ with center $A$ intersects the segment $BC$ at points $D$ and $E$, such that $B$, $D$, $E$, and $C$ are all different and lie on line $BC$ in this order. Let $F$ and $G$ be the points of intersection of $\Gamma$ and $\Omega$, such that $A$, $F$, $B$, $C$, and $G$ lie on $\Omega$ in this order. Let $K$ be the second point of intersection of the circumcircle of triangle $BDF$ and the segment $AB$. Let $L$ be the second point of intersection of the circumcircle of triangle $CGE$ and the segment $CA$.
+
+Suppose that the lines $FK$ and $GL$ are different and intersect at the point $X$. Prove that $X$ lies on the line $AO$."
+algebra,0,Let $\mathbb R$ be the set of real numbers. Determine all functions $f:\mathbb R\to\mathbb R$ that satisfy the equation\[f(x+f(x+y))+f(xy)=x+f(x+y)+yf(x)\]for all real numbers $x$ and $y$.
+number theory,3,"The sequence $a_1,a_2,\dots$ of integers satisfies the conditions:
+
+(i) $1\le a_j\le2015$ for all $j\ge1$,
+(ii) $k+a_k\neq \ell+a_\ell$ for all $1\le k<\ell$.
+
+Prove that there exist two positive integers $b$ and $N$ for which\[\left\vert\sum_{j=m+1}^n(a_j-b)\right\vert\le1007^2\]for all integers $m$ and $n$ such that $n>m\ge N$."
+algebra,0,"Let $a_0 < a_1 < a_2 \ldots$ be an infinite sequence of positive integers. Prove that there exists a unique integer $n\geq 1$ such that
+\[a_n < \frac{a_0+a_1+a_2+\cdots+a_n}{n} \leq a_{n+1}.\]"
+combinatorics,1,"Let $n \ge 2$ be an integer. Consider an $n \times n$ chessboard consisting of $n^2$ unit squares. A configuration of $n$ rooks on this board is peaceful if every row and every column contains exactly one rook. Find the greatest positive integer $k$ such that, for each peaceful configuration of $n$ rooks, there is a $k \times k$ square which does not contain a rook on any of its $k^2$ unit squares."
+geometry,2,"Convex quadrilateral $ABCD$ has $\angle ABC = \angle CDA = 90^{\circ}$. Point $H$ is the foot of the perpendicular from $A$ to $BD$. Points $S$ and $T$ lie on sides $AB$ and $AD$, respectively, such that $H$ lies inside triangle $SCT$ and\[
+\angle CHS - \angle CSB = 90^{\circ}, \quad \angle THC - \angle DTC = 90^{\circ}. \]Prove that line $BD$ is tangent to the circumcircle of triangle $TSH$."
+geometry,2,"Let $P$ and $Q$ be on segment $BC$ of an acute triangle $ABC$ such that $\angle PAB=\angle BCA$ and $\angle CAQ=\angle ABC$. Let $M$ and $N$ be the points on $AP$ and $AQ$, respectively, such that $P$ is the midpoint of $AM$ and $Q$ is the midpoint of $AN$. Prove that the intersection of $BM$ and $CN$ is on the circumference of triangle $ABC$."
+number theory,3,"For each positive integer $n$, the Bank of Cape Town issues coins of denomination $\frac1n$. Given a finite collection of such coins (of not necessarily different denominations) with total value at most most $99+\frac12$, prove that it is possible to split this collection into $100$ or fewer groups, such that each group has total value at most $1$."
+combinatorics,1,"A set of lines in the plane is in general position if no two are parallel and no three pass through the same point. A set of lines in general position cuts the plane into regions, some of which have finite area; we call these its finite regions. Prove that for all sufficiently large $n$, in any set of $n$ lines in general position it is possible to colour at least $\sqrt{n}$ lines blue in such a way that none of its finite regions has a completely blue boundary.
+
+Note: Results with $\sqrt{n}$ replaced by $c\sqrt{n}$ will be awarded points depending on the value of the constant $c$."
+number theory,3,"Assume that $k$ and $n$ are two positive integers. Prove that there exist positive integers $m_1 , \dots , m_k$ such that\[1+\frac{2^k-1}{n}=\left(1+\frac1{m_1}\right)\cdots \left(1+\frac1{m_k}\right).\]"
+combinatorics,1,"A configuration of $4027$ points in the plane is called Colombian if it consists of $2013$ red points and $2014$ blue points, and no three of the points of the configuration are collinear. By drawing some lines, the plane is divided into several regions. An arrangement of lines is good for a Colombian configuration if the following two conditions are satisfied:
+
+i) No line passes through any point of the configuration.
+
+ii) No region contains points of both colors.
+
+Find the least value of $k$ such that for any Colombian configuration of $4027$ points, there is a good arrangement of $k$ lines."
+geometry,2,"Let the excircle of triangle $ABC$ opposite the vertex $A$ be tangent to the side $BC$ at the point $A_1$. Define the points $B_1$ on $CA$ and $C_1$ on $AB$ analogously, using the excircles opposite $B$ and $C$, respectively. Suppose that the circumcentre of triangle $A_1B_1C_1$ lies on the circumcircle of triangle $ABC$. Prove that triangle $ABC$ is right-angled."
+geometry,2,"Let $ABC$ be an acute triangle with orthocenter $H$, and let $W$ be a point on the side $BC$, lying strictly between $B$ and $C$. The points $M$ and $N$ are the feet of the altitudes from $B$ and $C$, respectively. Denote by $\omega_1$ is the circumcircle of $BWN$, and let $X$ be the point on $\omega_1$ such that $WX$ is a diameter of $\omega_1$. Analogously, denote by $\omega_2$ the circumcircle of triangle $CWM$, and let $Y$ be the point such that $WY$ is a diameter of $\omega_2$. Prove that $X,Y$ and $H$ are collinear."
+algebra,0,"Let $\mathbb Q_{>0}$ be the set of all positive rational numbers. Let $f:\mathbb Q_{>0}\to\mathbb R$ be a function satisfying the following three conditions:
+
+(i) for all $x,y\in\mathbb Q_{>0}$, we have $f(x)f(y)\geq f(xy)$;
+(ii) for all $x,y\in\mathbb Q_{>0}$, we have $f(x+y)\geq f(x)+f(y)$;
+(iii) there exists a rational number $a>1$ such that $f(a)=a$.
+
+Prove that $f(x)=x$ for all $x\in\mathbb Q_{>0}$."
+combinatorics,1,"Let $n \ge 3$ be an integer, and consider a circle with $n + 1$ equally spaced points marked on it. Consider all labellings of these points with the numbers $0, 1, ... , n$ such that each label is used exactly once; two such labellings are considered to be the same if one can be obtained from the other by a rotation of the circle. A labelling is called beautiful if, for any four labels $a < b < c < d$ with $a + d = b + c$, the chord joining the points labelled $a$ and $d$ does not intersect the chord joining the points labelled $b$ and $c$.
+
+Let $M$ be the number of beautiful labelings, and let N be the number of ordered pairs $(x, y)$ of positive integers such that $x + y \le n$ and $\gcd(x, y) = 1$. Prove that$$M = N + 1.$$"
+geometry,2,"Given triangle $ABC$ the point $J$ is the centre of the excircle opposite the vertex $A.$ This excircle is tangent to the side $BC$ at $M$, and to the lines $AB$ and $AC$ at $K$ and $L$, respectively. The lines $LM$ and $BJ$ meet at $F$, and the lines $KM$ and $CJ$ meet at $G.$ Let $S$ be the point of intersection of the lines $AF$ and $BC$, and let $T$ be the point of intersection of the lines $AG$ and $BC.$ Prove that $M$ is the midpoint of $ST.$
+
+(The excircle of $ABC$ opposite the vertex $A$ is the circle that is tangent to the line segment $BC$, to the ray $AB$ beyond $B$, and to the ray $AC$ beyond $C$.)"
+algebra,0,"Let $n\ge 3$ be an integer, and let $a_2,a_3,\ldots ,a_n$ be positive real numbers such that $a_{2}a_{3}\cdots a_{n}=1$. Prove that
+\[(1 + a_2)^2 (1 + a_3)^3 \dotsm (1 + a_n)^n > n^n.\]"
+combinatorics,1,"The liar's guessing game is a game played between two players $A$ and $B$. The rules of the game depend on two positive integers $k$ and $n$ which are known to both players.
+
+At the start of the game $A$ chooses integers $x$ and $N$ with $1 \le x \le N.$ Player $A$ keeps $x$ secret, and truthfully tells $N$ to player $B$. Player $B$ now tries to obtain information about $x$ by asking player $A$ questions as follows: each question consists of $B$ specifying an arbitrary set $S$ of positive integers (possibly one specified in some previous question), and asking $A$ whether $x$ belongs to $S$. Player $B$ may ask as many questions as he wishes. After each question, player $A$ must immediately answer it with yes or no, but is allowed to lie as many times as she wants; the only restriction is that, among any $k+1$ consecutive answers, at least one answer must be truthful.
+
+After $B$ has asked as many questions as he wants, he must specify a set $X$ of at most $n$ positive integers. If $x$ belongs to $X$, then $B$ wins; otherwise, he loses. Prove that:
+
+1. If $n \ge 2^k,$ then $B$ can guarantee a win.
+2. For all sufficiently large $k$, there exists an integer $n \ge (1.99)^k$ such that $B$ cannot guarantee a win."
+algebra,0,"Find all functions $f:\mathbb Z\rightarrow \mathbb Z$ such that, for all integers $a,b,c$ that satisfy $a+b+c=0$, the following equality holds:
+\[f(a)^2+f(b)^2+f(c)^2=2f(a)f(b)+2f(b)f(c)+2f(c)f(a).\]
+(Here $\mathbb{Z}$ denotes the set of integers.)"
+geometry,2,"Let $ABC$ be a triangle with $\angle BCA=90^{\circ}$, and let $D$ be the foot of the altitude from $C$. Let $X$ be a point in the interior of the segment $CD$. Let $K$ be the point on the segment $AX$ such that $BK=BC$. Similarly, let $L$ be the point on the segment $BX$ such that $AL=AC$. Let $M$ be the point of intersection of $AL$ and $BK$.
+
+Show that $MK=ML$."
+number theory,3,"Find all positive integers $n$ for which there exist non-negative integers $a_1, a_2, \ldots, a_n$ such that
+\[
+\frac{1}{2^{a_1}} + \frac{1}{2^{a_2}} + \cdots + \frac{1}{2^{a_n}} = 
+\frac{1}{3^{a_1}} + \frac{2}{3^{a_2}} + \cdots + \frac{n}{3^{a_n}} = 1.
+\]"
+number theory,3,"Given any set $A = \{a_1, a_2, a_3, a_4\}$ of four distinct positive integers, we denote the sum $a_1 +a_2 +a_3 +a_4$ by $s_A$. Let $n_A$ denote the number of pairs $(i, j)$ with $1 \leq  i < j \leq 4$ for which $a_i +a_j$ divides $s_A$. Find all sets $A$ of four distinct positive integers which achieve the largest possible value of $n_A$."
+combinatorics,1,"Let $\mathcal{S}$ be a finite set of at least two points in the plane. Assume that no three points of $\mathcal S$ are collinear. A windmill is a process that starts with a line $\ell$ going through a single point $P \in \mathcal S$. The line rotates clockwise about the pivot $P$ until the first time that the line meets some other point belonging to $\mathcal S$. This point, $Q$, takes over as the new pivot, and the line now rotates clockwise about $Q$, until it next meets a point of $\mathcal S$. This process continues indefinitely.
+Show that we can choose a point $P$ in $\mathcal S$ and a line $\ell$ going through $P$ such that the resulting windmill uses each point of $\mathcal S$ as a pivot infinitely many times."
+algebra,0,"Let $f : \mathbb R \to \mathbb R$ be a real-valued function defined on the set of real numbers that satisfies
+\[f(x + y) \leq yf(x) + f(f(x))\]
+for all real numbers $x$ and $y$. Prove that $f(x) = 0$ for all $x \leq 0$."
+combinatorics,1,"Let $n > 0$ be an integer. We are given a balance and $n$ weights of weight $2^0, 2^1, \cdots, 2^{n-1}$. We are to place each of the $n$ weights on the balance, one after another, in such a way that the right pan is never heavier than the left pan. At each step we choose one of the weights that has not yet been placed on the balance, and place it on either the left pan or the right pan, until all of the weights have been placed.
+Determine the number of ways in which this can be done."
+number theory,3,"Let $f$ be a function from the set of integers to the set of positive integers. Suppose that, for any two integers $m$ and $n$, the difference $f(m) - f(n)$ is divisible by $f(m- n)$. Prove that, for all integers $m$ and $n$ with $f(m) \leq f(n)$, the number $f(n)$ is divisible by $f(m)$."
+geometry,2,"Let $ABC$ be an acute triangle with circumcircle $\Gamma$. Let $\ell$ be a tangent line to $\Gamma$, and let $\ell_a, \ell_b$ and $\ell_c$ be the lines obtained by reflecting $\ell$ in the lines $BC$, $CA$ and $AB$, respectively. Show that the circumcircle of the triangle determined by the lines $\ell_a, \ell_b$ and $\ell_c$ is tangent to the circle $\Gamma$."
+algebra,0,"Find all function $f:\mathbb{R}\rightarrow\mathbb{R}$ such that for all $x,y\in\mathbb{R}$ the following equality holds\[
+f(\left\lfloor x\right\rfloor y)=f(x)\left\lfloor f(y)\right\rfloor \]where $\left\lfloor a\right\rfloor $ is greatest integer not greater than $a.$"
+geometry,2,"Given a triangle $ABC$, with $I$ as its incenter and $\Gamma$ as its circumcircle, $AI$ intersects $\Gamma$ again at $D$. Let $E$ be a point on the arc $BDC$, and $F$ a point on the segment $BC$, such that $\angle BAF=\angle CAE < \dfrac12\angle BAC$. If $G$ is the midpoint of $IF$, prove that the meeting point of the lines $EI$ and $DG$ lies on $\Gamma$."
+number theory,3,"Find all functions $g:\mathbb{N}\rightarrow\mathbb{N}$ such that\[\left(g(m)+n\right)\left(g(n)+m\right)\]is a perfect square for all $m,n\in\mathbb{N}.$"
+geometry,2,"Let $P$ be a point interior to triangle $ABC$ (with $CA \neq CB$). The lines $AP$, $BP$ and $CP$ meet again its circumcircle $\Gamma$ at $K$, $L$, respectively $M$. The tangent line at $C$ to $\Gamma$ meets the line $AB$ at $S$. Show that from $SC = SP$ follows $MK = ML$."
+combinatorics,1,"Each of the six boxes $B_1$, $B_2$, $B_3$, $B_4$, $B_5$, $B_6$ initially contains one coin. The following operations are allowed
+
+Type 1) Choose a non-empty box $B_j$, $1\leq j \leq 5$, remove one coin from $B_j$ and add two coins to $B_{j+1}$;
+
+Type 2) Choose a non-empty box $B_k$, $1\leq k \leq 4$, remove one coin from $B_k$ and swap the contents (maybe empty) of the boxes $B_{k+1}$ and $B_{k+2}$.
+
+Determine if there exists a finite sequence of operations of the allowed types, such that the five boxes $B_1$, $B_2$, $B_3$, $B_4$, $B_5$ become empty, while box $B_6$ contains exactly $2010^{2010^{2010}}$ coins."
+algebra,0,"Let $a_1, a_2, a_3, \ldots$ be a sequence of positive real numbers, and $s$ be a positive integer, such that
+\[a_n = \max \{ a_k + a_{n-k} \mid 1 \leq k \leq n-1 \} \ \textrm{ for all } \ n > s.\]
+Prove there exist positive integers $\ell \leq s$ and $N$, such that
+\[a_n = a_{\ell} + a_{n - \ell} \ \textrm{ for all } \ n \geq N.\]"
+number theory,3,"Let $ n$ be a positive integer and let $ a_1,a_2,a_3,\ldots,a_k$ $ ( k\ge 2)$ be distinct integers in the set $ { 1,2,\ldots,n}$ such that $ n$ divides $ a_i(a_{i + 1} - 1)$ for $ i = 1,2,\ldots,k - 1$. Prove that $ n$ does not divide $ a_k(a_1 - 1).$"
+geometry,2,"Let $ ABC$ be a triangle with circumcentre $ O$. The points $ P$ and $ Q$ are interior points of the sides $ CA$ and $ AB$ respectively. Let $ K,L$ and $ M$ be the midpoints of the segments $ BP,CQ$ and $ PQ$. respectively, and let $ \Gamma$ be the circle passing through $ K,L$ and $ M$. Suppose that the line $ PQ$ is tangent to the circle $ \Gamma$. Prove that $ OP = OQ.$"
+algebra,0,"Suppose that $ s_1,s_2,s_3, \ldots$ is a strictly increasing sequence of positive integers such that the sub-sequences\[s_{s_1},\, s_{s_2},\, s_{s_3},\, \ldots\qquad\text{and}\qquad s_{s_1+1},\, s_{s_2+1},\, s_{s_3+1},\, \ldots\]are both arithmetic progressions. Prove that the sequence $ s_1, s_2, s_3, \ldots$ is itself an arithmetic progression."
+geometry,2,"Let $ ABC$ be a triangle with $ AB = AC$ . The angle bisectors of $ \angle C AB$ and $ \angle AB C$ meet the sides $ B C$ and $ C A$ at $ D$ and $ E$ , respectively. Let $ K$ be the incentre of triangle $ ADC$. Suppose that $ \angle B E K = 45^\circ$ . Find all possible values of $ \angle C AB$ ."
+algebra,0,"Determine all functions $ f$ from the set of positive integers to the set of positive integers such that, for all positive integers $ a$ and $ b$, there exists a non-degenerate triangle with sides of lengths
+\[ a, f(b) \text{ and } f(b + f(a) - 1).\]"
+combinatorics,1,"Let $ a_1, a_2, \ldots , a_n$ be distinct positive integers and let $ M$ be a set of $ n - 1$ positive integers not containing $ s = a_1 + a_2 + \ldots + a_n.$ A grasshopper is to jump along the real axis, starting at the point $ 0$ and making $ n$ jumps to the right with lengths $ a_1, a_2, \ldots , a_n$ in some order. Prove that the order can be chosen in such a way that the grasshopper never lands on any point in $ M.$"
+geometry,2,"Let $ H$ be the orthocenter of an acute-angled triangle $ ABC$. The circle $ \Gamma_{A}$ centered at the midpoint of $ BC$ and passing through $ H$ intersects the sideline $ BC$ at points $ A_{1}$ and $ A_{2}$. Similarly, define the points $ B_{1}$, $ B_{2}$, $ C_{1}$ and $ C_{2}$.
+
+Prove that the six points $ A_{1}$, $ A_{2}$, $ B_{1}$, $ B_{2}$, $ C_{1}$ and $ C_{2}$ are concyclic."
+algebra,0,"(a) Prove that
+\[\frac {x^{2}}{\left(x - 1\right)^{2}} + \frac {y^{2}}{\left(y - 1\right)^{2}} + \frac {z^{2}}{\left(z - 1\right)^{2}} \geq 1\]for all real numbers $x$, $y$, $z$, each different from $1$, and satisfying $xyz=1$.
+
+(b) Prove that equality holds above for infinitely many triples of rational numbers $x$, $y$, $z$, each different from $1$, and satisfying $xyz=1$."
+number theory,3,Prove that there are infinitely many positive integers $ n$ such that $ n^{2} + 1$ has a prime divisor greater than $ 2n + \sqrt {2n}$.
+algebra,0,"Find all functions $ f: (0, \infty) \mapsto (0, \infty)$ (so $ f$ is a function from the positive real numbers) such that
+\[ \frac {\left( f(w) \right)^2 + \left( f(x) \right)^2}{f(y^2) + f(z^2) } = \frac {w^2 + x^2}{y^2 + z^2}
+\]
+for all positive real numbers $ w,x,y,z,$ satisfying $ wx = yz.$"
+combinatorics,1,"Let $ n$ and $ k$ be positive integers with $ k \geq n$ and $ k - n$ an even number. Let $ 2n$ lamps labelled $ 1$, $ 2$, ..., $ 2n$ be given, each of which can be either on or off. Initially all the lamps are off. We consider sequences of steps: at each step one of the lamps is switched (from on to off or from off to on).
+
+Let $ N$ be the number of such sequences consisting of $ k$ steps and resulting in the state where lamps $ 1$ through $ n$ are all on, and lamps $ n + 1$ through $ 2n$ are all off.
+
+Let $ M$ be number of such sequences consisting of $ k$ steps, resulting in the state where lamps $ 1$ through $ n$ are all on, and lamps $ n + 1$ through $ 2n$ are all off, but where none of the lamps $ n + 1$ through $ 2n$ is ever switched on.
+
+Determine $ \frac {N}{M}$.
+"
+geometry,2,"Let $ ABCD$ be a convex quadrilateral with $ BA\neq BC$. Denote the incircles of triangles $ ABC$ and $ ADC$ by $ \omega_{1}$ and $ \omega_{2}$ respectively. Suppose that there exists a circle $ \omega$ tangent to ray $ BA$ beyond $ A$ and to the ray $ BC$ beyond $ C$, which is also tangent to the lines $ AD$ and $ CD$. Prove that the common external tangents to $ \omega_{1}$ and $\omega_{2}$ intersect on $ \omega$."
+algebra,0,"Real numbers $ a_{1}$, $ a_{2}$, $ \ldots$, $ a_{n}$ are given. For each $ i$, $ (1 \leq i \leq n )$, define
+\[ d_{i} = \max \{ a_{j}\mid 1 \leq j \leq i \} - \min \{ a_{j}\mid i \leq j \leq n \}
+\]
+and let $ d = \max \{d_{i}\mid 1 \leq i \leq n \}$.
+
+(a) Prove that, for any real numbers $ x_{1}\leq x_{2}\leq \cdots \leq x_{n}$,
+\[ \max \{ |x_{i} - a_{i}| \mid 1 \leq i \leq n \}\geq \frac {d}{2}. \quad \quad (*)
+\]
+(b) Show that there are real numbers $ x_{1}\leq x_{2}\leq \cdots \leq x_{n}$ such that the equality holds in (*)."
+geometry,2,"Consider five points $ A$, $ B$, $ C$, $ D$ and $ E$ such that $ ABCD$ is a parallelogram and $ BCED$ is a cyclic quadrilateral. Let $ \ell$ be a line passing through $ A$. Suppose that $ \ell$ intersects the interior of the segment $ DC$ at $ F$ and intersects line $ BC$ at $ G$. Suppose also that $ EF = EG = EC$. Prove that $ \ell$ is the bisector of angle $ DAB$."
+combinatorics,1,"In a mathematical competition some competitors are friends. Friendship is always mutual. Call a group of competitors a clique if each two of them are friends. (In particular, any group of fewer than two competitiors is a clique.) The number of members of a clique is called its size.
+
+Given that, in this competition, the largest size of a clique is even, prove that the competitors can be arranged into two rooms such that the largest size of a clique contained in one room is the same as the largest size of a clique contained in the other room."
+geometry,2,"In triangle $ ABC$ the bisector of angle $ BCA$ intersects the circumcircle again at $ R$, the perpendicular bisector of $ BC$ at $ P$, and the perpendicular bisector of $ AC$ at $ Q$. The midpoint of $ BC$ is $ K$ and the midpoint of $ AC$ is $ L$. Prove that the triangles $ RPK$ and $ RQL$ have the same area."
+number theory,3,"Let $a$ and $b$ be positive integers. Show that if $4ab - 1$ divides $(4a^{2} - 1)^{2}$, then $a = b$."
+algebra,0,"Let $ n$ be a positive integer. Consider
+\[ S = \left\{ (x,y,z) \mid x,y,z \in \{ 0, 1, \ldots, n\}, x + y + z > 0 \right \}
+\]
+as a set of $ (n + 1)^{3} - 1$ points in the three-dimensional space. Determine the smallest possible number of planes, the union of which contains $ S$ but does not include $ (0,0,0)$."
+geometry,2,"Let $ABC$ be triangle with incenter $I$. A point $P$ in the interior of the triangle satisfies\[\angle PBA+\angle PCA = \angle PBC+\angle PCB.\]Show that $AP \geq AI$, and that equality holds if and only if $P=I$."
+combinatorics,1,"Let $P$ be a regular $2006$-gon. A diagonal is called good if its endpoints divide the boundary of $P$ into two parts, each composed of an odd number of sides of $P$. The sides of $P$ are also called good.
+Suppose $P$ has been dissected into triangles by $2003$ diagonals, no two of which have a common point in the interior of $P$. Find the maximum number of isosceles triangles having two good sides that could appear in such a configuration."
+algebra,0,"Determine the least real number $M$ such that the inequality\[|ab(a^{2}-b^{2})+bc(b^{2}-c^{2})+ca(c^{2}-a^{2})| \leq M(a^{2}+b^{2}+c^{2})^{2}\]holds for all real numbers $a$, $b$ and $c$."
+number theory,3,"Determine all pairs $(x, y)$ of integers such that\[1+2^{x}+2^{2x+1}= y^{2}.\]"
+algebra,0,"Let $P(x)$ be a polynomial of degree $n > 1$ with integer coefficients and let $k$ be a positive integer. Consider the polynomial $Q(x) = P(P(\ldots P(P(x)) \ldots ))$, where $P$ occurs $k$ times. Prove that there are at most $n$ integers $t$ such that $Q(t) = t$."
+geometry,2,Assign to each side $b$ of a convex polygon $P$ the maximum area of a triangle that has $b$ as a side and is contained in $P$. Show that the sum of the areas assigned to the sides of $P$ is at least twice the area of $P$.
